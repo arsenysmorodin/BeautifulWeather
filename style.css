@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+/* Cities images */
+#moscow {
+  background: url(img/backgrounds/moscow.jpg) no-repeat center;
+}
+/* UI styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrp {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(66px);
+  width: 440px;
+  height: 100vh;
+  padding: 0 30px 0 30px;
+}
+
+.header {
+  display: flex;
+  margin: 0 0 96px 0;
+}
+
+.burger-menu__wrp {
+  padding: 70px 0 0 0;
+}
+
+.burger-menu {
+  height: 5px;
+  width: 35px;
+  background: #fff;
+  position: relative;
+}
+
+.burger-menu::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 45px;
+  background: #fff;
+  top: -10px;
+}
+
+.burger-menu::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 42px;
+  background: #fff;
+  top: 10px;
+}
+
+.current-city {
+  padding: 43px 0 0 0;
+  color: #fff;
+  font-size: 48px;
+  margin: 0 0 0 31px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  margin: 0 0 45px 0;
+  background: #fff;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  width: 380px;
+  height: 200px;
+  display: flex;
+  position: relative;
+}
+
+.card__icon {
+  box-sizing: content-box;
+  height: 128px;
+  width: 128px;
+  padding: 36px 0 36px 20px;
+  position: absolute;
+}
+
+.card__text {
+  color: #000;
+  font-size: 64px;
+  margin: auto 0 auto 0;
+  position: absolute;
+  left: 152px;
+  top: 63px;
+}
+
+.card:last-of-type .card__text {
+  font-size: 48px;
+  top: 40px;
+}
+
+.card__description {
+  text-align: center;
+  padding: 172px 0 0 0;
+  margin: 0 auto;
+  color: #808080;
+}
+
+.link {
+  text-decoration: none;
+  display: flex;
+}
+
+.link__img {
+  margin: 0 12px 0 0;
+}
+
+.link__text {
+  font-size: 24px;
+  color: #000000;
+}
