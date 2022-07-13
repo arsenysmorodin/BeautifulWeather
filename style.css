@@ -1,8 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
 /* Cities images */
-#moscow {
+.bg_moscow {
   background: url(img/backgrounds/moscow.jpg) no-repeat center;
 }
+.bg_abu-dhabi {
+  background: url(img/backgrounds/abu-dhabi.jpg) no-repeat center;
+}
+.bg_beijing {
+  background: url(img/backgrounds/beijing.jpg) no-repeat center;
+}
+.bg_berlin {
+  background: url(img/backgrounds/berlin.jpg) no-repeat center;
+}
+.bg_cairo {
+  background: url(img/backgrounds/cairo.jpg) no-repeat center;
+}
+.bg_canberra {
+  background: url(img/backgrounds/canberra.jpg) no-repeat center;
+}
+.bg_capetown {
+  background: url(img/backgrounds/capetown.jpg) no-repeat center;
+}
+.bg_london {
+  background: url(img/backgrounds/london.jpg) no-repeat center;
+}
+.bg_new-delhi {
+  background: url(img/backgrounds/new-delhi.jpg) no-repeat center;
+}
+.bg_ny {
+  background: url(img/backgrounds/ny.jpg) no-repeat center;
+}
+.bg_paris {
+  background: url(img/backgrounds/paris.jpg) no-repeat center;
+}
+.bg_rio-de-janeiro {
+  background: url(img/backgrounds/rio-de-janeiro.jpg) no-repeat center;
+}
+.bg_rome {
+  background: url(img/backgrounds/rome.jpg) no-repeat center;
+}
+.bg_singapore {
+  background: url(img/backgrounds/singapore.jpg) no-repeat center;
+}
+.bg_tokio {
+  background: url(img/backgrounds/tokio.jpg) no-repeat center;
+}
+
 /* UI styles */
 * {
   padding: 0;
@@ -31,6 +74,7 @@ body {
 
 .burger-menu__wrp {
   padding: 70px 0 0 0;
+  margin: 0 0 0 -30px;
 }
 
 .burger-menu {
@@ -38,6 +82,7 @@ body {
   width: 35px;
   background: #fff;
   position: relative;
+  cursor: pointer;
 }
 
 .burger-menu::before {
