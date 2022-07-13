@@ -46,7 +46,7 @@
   background: url(img/backgrounds/tokio.jpg) no-repeat center;
 }
 
-/* UI styles */
+/* UI styles*/
 * {
   padding: 0;
   margin: 0;
@@ -58,6 +58,8 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
+/* Main page*/
 
 .wrp {
   background: rgba(255, 255, 255, 0.3);
@@ -169,4 +171,163 @@ body {
 .link__text {
   font-size: 24px;
   color: #000000;
+}
+
+/* Choose city page */
+.choose-city {
+  width: 100vw;
+  height: 100vh;
+  background: #ffffff;
+  position: absolute;
+  z-index: 1;
+}
+
+.choose-city_hidden {
+  display: none;
+}
+.choose-city__close-button {
+  display: block;
+  width: 45px;
+  height: 5px;
+  background: #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 38px;
+  left: 30px;
+  cursor: pointer;
+}
+
+.choose-city__close-button::after {
+  content: "";
+  display: block;
+  width: 45px;
+  height: 5px;
+  background: #000;
+  transform: rotate(270deg);
+  position: absolute;
+}
+
+.choose-city__title {
+  font-size: 64px;
+  left: 30px;
+  top: 148px;
+  color: #000000;
+  position: absolute;
+  width: 700px;
+}
+
+.choose-city__text {
+  font-size: 40px;
+  color: #808080;
+  left: 30px;
+  top: 374px;
+  position: absolute;
+}
+
+/* Cities colors, size, positions */
+
+[data-city="moscow"] {
+  position: absolute;
+  left: 30px;
+  top: 466px;
+  font-size: 96px;
+  color: #7400b8;
+}
+[data-city="new-delhi"] {
+  position: absolute;
+  left: 32px;
+  top: 594px;
+  font-size: 48px;
+  color: #72efdd;
+}
+[data-city="cairo"] {
+  position: absolute;
+  left: 30px;
+  top: 666px;
+  font-size: 64px;
+  color: #6dffec;
+}
+[data-city="abu-dhabi"] {
+  position: absolute;
+  left: 30px;
+  top: 740px;
+  font-size: 96px;
+  color: #56cfe1;
+}
+[data-city="rio-de-janeiro"] {
+  position: absolute;
+  left: 452px;
+  top: 496px;
+  font-size: 64px;
+  color: #40b6ff;
+}
+[data-city="rome"] {
+  position: absolute;
+  left: 287px;
+  top: 565px;
+  font-size: 128px;
+  color: #5390d9;
+}
+[data-city="ny"] {
+  position: absolute;
+  left: 525px;
+  top: 710px;
+  font-size: 128px;
+  color: #6930c3;
+}
+[data-city="london"] {
+  position: absolute;
+  left: 686px;
+  top: 593px;
+  font-size: 96px;
+  color: #80ffdb;
+}
+[data-city="singapore"] {
+  position: absolute;
+  left: 754px;
+  top: 412px;
+  font-size: 64px;
+  color: #5e60c3;
+}
+[data-city="paris"] {
+  position: absolute;
+  left: 939px;
+  top: 515px;
+  font-size: 48px;
+  color: #5035b0;
+}
+[data-city="berlin"] {
+  position: absolute;
+  left: 1081px;
+  top: 606px;
+  font-size: 128px;
+  color: #64dfdf;
+}
+[data-city="tokio"] {
+  position: absolute;
+  left: 1118px;
+  top: 533px;
+  font-size: 64px;
+  color: #4affe7;
+}
+[data-city="canberra"] {
+  position: absolute;
+  left: 885px;
+  top: 831px;
+  font-size: 96px;
+  color: #48bfe3;
+}
+[data-city="beijing"] {
+  position: absolute;
+  left: 1142px;
+  top: 769px;
+  font-size: 64px;
+  color: #59ffcd;
+}
+[data-city="capetown"] {
+  position: absolute;
+  left: 1334px;
+  top: 503px;
+  font-size: 96px;
+  color: #4ea8de;
 }
