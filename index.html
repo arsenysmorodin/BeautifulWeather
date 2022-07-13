@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="bg_ny">
-    <div class="choose-city">
-      <div class="choose-city__close-button"></div>
+    <div class="choose-city" id="choose-city">
+      <div class="choose-city__close-button" id="close-button"></div>
       <h2 class="choose-city__title">
         Сheck the weather anywhere in the world!
       </h2>
@@ -38,7 +38,9 @@
     <div class="wrp">
       <header class="header">
         <div class="burger-menu__wrp">
-          <div class="burger-menu"></div>
+          <div id="burger-menu">
+            <div class="burger-menu"></div>
+          </div>
         </div>
         <h1 class="current-city">Moscow</h1>
       </header>
@@ -81,5 +83,6 @@
         </a>
       </footer>
     </div>
+    <script src="show-choose-city-page.js"></script>
   </body>
 </html>

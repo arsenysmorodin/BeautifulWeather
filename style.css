@@ -226,6 +226,10 @@ body {
 
 /* Cities colors, size, positions */
 
+[data-city] {
+  cursor: pointer;
+}
+
 [data-city="moscow"] {
   position: absolute;
   left: 30px;
