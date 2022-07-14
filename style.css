@@ -147,10 +147,10 @@ body {
   top: 63px;
 }
 
-.card:last-of-type .card__text {
+/* .card:last-of-type .card__text {
   font-size: 48px;
   top: 40px;
-}
+} */
 
 .card__description {
   text-align: center;
