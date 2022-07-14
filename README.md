@@ -7,4 +7,4 @@ An app that shows the weather in 15 cities around the world. Simple but beautifu
 
 TODO:
 * Connect with OpenWeatherMap.org by fetch API;
-* Make render function 
+* Make choose city function
