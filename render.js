@@ -38,7 +38,7 @@ function render(weatherData) {
     currentWeather.tempIcon = "img/icons/temp-warm.png";
   }
 
-  if (currentWeather.wind < 3) {
+  if (currentWeather.wind <= 3) {
     currentWeather.windIcon = "img/icons/wind-low.png";
   } else if (currentWeather.wind > 3 && currentWeather.wind < 10) {
     currentWeather.windIcon = "img/icons/wind-mid.png";
