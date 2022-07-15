@@ -6,4 +6,6 @@ An app that shows the weather in 15 cities around the world. Simple but beautifu
 
 
 TODO:
-* Make choose city function
+* Do code refactoring
+* Make mobile version
+* Optimize images
