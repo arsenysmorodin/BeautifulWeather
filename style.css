@@ -42,8 +42,8 @@
 .bg_singapore {
   background: url(img/backgrounds/singapore.jpg) no-repeat center;
 }
-.bg_tokio {
-  background: url(img/backgrounds/tokio.jpg) no-repeat center;
+.bg_tokyo {
+  background: url(img/backgrounds/tokyo.jpg) no-repeat center;
 }
 
 /* UI styles*/
@@ -307,7 +307,7 @@ body {
   font-size: 128px;
   color: #64dfdf;
 }
-[data-city="tokio"] {
+[data-city="tokyo"] {
   position: absolute;
   left: 1118px;
   top: 533px;

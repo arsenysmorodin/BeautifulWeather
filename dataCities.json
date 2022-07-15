@@ -1,62 +1,107 @@
-{
-  "moscow": {
+[
+  {
+    "id": "moscow",
+    "name": "Moscow",
     "lat": 55.7512,
-    "lon": 37.6184
+    "lon": 37.6184,
+    "imgSrc": "img/backgrounds/moscow.jpg"
   },
-  "ny": {
+  {
+    "id": "ny",
+    "name": "New York",
     "lat": 40.7306,
-    "lon": -73.9352
+    "lon": -73.9352,
+    "imgSrc": "img/backgrounds/ny.jpg"
   },
-  "rio-de-janeiro": {
+  {
+    "id": "rio-de-janeiro",
+    "name": "Rio de Janeiro",
     "lat": -22.9083,
-    "lon": -43.1963
+    "lon": -43.1963,
+    "imgSrc": "img/backgrounds/rio-de-janeiro.jpg"
   },
-  "capetown": {
+  {
+    "id": "capetown",
+    "name": "Capetown",
     "lat": -33.9188,
-    "lon": 18.4233
+    "lon": 18.4233,
+    "imgSrc": "img/backgrounds/capetown.jpg"
   },
-  "cairo": {
+  {
+    "id": "cairo",
+    "name": "Cairo",
     "lat": 30.0333,
-    "lon": 31.2333
+    "lon": 31.2333,
+    "imgSrc": "img/backgrounds/cairo.jpg"
   },
-  "london": {
+  {
+    "id": "london",
+    "name": "London",
     "lat": 51.5098,
-    "lon": -0.118
+    "lon": -0.118,
+    "imgSrc": "img/backgrounds/london.jpg"
   },
-  "paris": {
+  {
+    "id": "paris",
+    "name": "Paris",
     "lat": 48.8647,
-    "lon": 2.349
+    "lon": 2.349,
+    "imgSrc": "img/backgrounds/paris.jpg"
   },
-  "berlin": {
+  {
+    "id": "berlin",
+    "name": "Berlin",
     "lat": 52.52,
-    "lon": 13.4049
+    "lon": 13.4049,
+    "imgSrc": "img/backgrounds/berlin.jpg"
   },
-  "abu-dhabi": {
+  {
+    "id": "abu-dhabi",
+    "name": "Abu Dhadi",
     "lat": 24.4666,
-    "lon": 54.3666
+    "lon": 54.3666,
+    "imgSrc": "img/backgrounds/abu-dhabi.jpg"
   },
-  "beijing": {
+  {
+    "id": "beijing",
+    "name": "Beijing",
     "lat": 39.9166,
-    "lon": 116.3833
+    "lon": 116.3833,
+    "imgSrc": "img/backgrounds/beijing.jpg"
   },
-  "tokyo": {
+  {
+    "id": "tokyo",
+    "name": "Tokyo",
     "lat": 35.6528,
-    "lon": 139.8394
+    "lon": 139.8394,
+    "imgSrc": "img/backgrounds/tokyo.jpg"
   },
-  "new-delhi": {
+  {
+    "id": "new-delhy",
+    "name": "New Delhi",
     "lat": 28.6448,
-    "lon": 77.2167
+    "lon": 77.2167,
+    "imgSrc": "img/backgrounds/new-delhi.jpg"
   },
-  "singapore": {
+  {
+    "id": "singapore",
+    "name": "Singapore",
     "lat": 1.2902,
-    "lon": 103.8519
+    "lon": 103.8519,
+    "imgSrc": "img/backgrounds/singapore.jpg"
   },
-  "canberra": {
+  {
+    "id": "canberra",
+    "name": "Canberra",
     "lat": -35.282,
-    "lon": 149.1289
+    "lon": 149.1289,
+    "imgSrc": "img/backgrounds/canberra.jpg"
   },
-  "rome": {
+  {
+    "id": "rome",
+    "name": "Rome",
     "lat": 41.9027,
-    "lon": 12.4963
+    "lon": 12.4963,
+    "imgSrc": "img/backgrounds/rome.jpg"
   }
-}
+]

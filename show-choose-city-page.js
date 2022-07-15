@@ -11,3 +11,7 @@ DOMControlers.burgerMenu.addEventListener("click", function () {
 DOMControlers.closeButton.addEventListener("click", function () {
   DOMControlers.chooseCityBlock.classList.toggle("choose-city_hidden");
 });
+
+function closeMenu() {
+  DOMControlers.chooseCityBlock.classList.add("choose-city_hidden");
+}

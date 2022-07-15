@@ -1,5 +1,3 @@
-getWeatherData(55.7512, 37.6184);
-
 async function getWeatherData(lat, lon) {
   const response = await fetch(
     `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=a158065199118bd588aed3a9d406f38f&units=metric`
@@ -9,9 +7,9 @@ async function getWeatherData(lat, lon) {
   render(weatherData);
 }
 
-function render(weatherData) {
-  console.log(weatherData);
+getWeatherData(55.7512, 37.6184);
 
+function render(weatherData) {
   let DOMContent = {
     tempText: document.querySelector("#temp-text"),
     tempIcon: document.querySelector("#temp-icon"),
@@ -46,8 +44,6 @@ function render(weatherData) {
     currentWeather.windIcon = "img/icons/wind-heavy.png";
   }
 
-  console.log(currentWeather.precipitation);
-
   switch (currentWeather.precipitation) {
     case "Clear":
       currentWeather.precipitation = "Sunny";
@@ -76,8 +72,6 @@ function render(weatherData) {
     default:
       currentWeather.cloudsIcon = "img/icons/cloud-part.png";
   }
-
-  console.log(currentWeather);
 
   DOMContent.tempText.innerText = currentWeather.temp;
   DOMContent.windText.innerText = currentWeather.wind;
