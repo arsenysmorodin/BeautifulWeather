@@ -9,3 +9,4 @@ TODO:
 * Do code refactoring
 * Make mobile version
 * Optimize images
+* Add more images for every weather
